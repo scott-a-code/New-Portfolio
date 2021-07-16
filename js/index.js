@@ -16,5 +16,5 @@ let contactMeBtn = document.querySelector('.ContactMe');
 contactMeBtn.addEventListener('click', redirectToContact());
 
 function redirectToContact(){
-    console.log("Conytact page");
+    console.log("Contact page");
 };
