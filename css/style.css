@@ -77,8 +77,50 @@ main {
     }
 }
 
+button {
+    border:none;
+    background-color: rgb(84, 109, 245);
+    border-radius: 50px !important;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    margin: 4px 20px !important;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+    box-shadow: black;
+}
+
+
+.resizing-profile-picture{
+    width: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 10px;
+}
+
+/********** Index **********/
+
+/********** About me **********/
+
+#title_div {
+    display: inline-flex;
+    justify-content: center;
+}
+
+/********** Projects **********/
+
+
+
 /********** Contact **********/
-h1{
+h1 {
     text-align: center;
     padding-bottom: 50px;
 }
