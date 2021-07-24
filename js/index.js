@@ -1,19 +1,19 @@
 let aboutMeBtn = document.querySelector('.AboutMe');
-aboutMeBtn.addEventListener('click', redirectToAboutMe());
+aboutMeBtn.addEventListener('onClick', redirectToAboutMe());
 
 function redirectToAboutMe(){
     console.log("About me page");
 };
 
 let projectsBtn = document.querySelector('.Projects');
-projectsBtn.addEventListener('click', redirectToProject());
+projectsBtn.addEventListener('onClick', redirectToProject());
 
 function redirectToProject(){
     console.log("Projects page");
 };
 
 let contactMeBtn = document.querySelector('.ContactMe');
-contactMeBtn.addEventListener('click', redirectToContact());
+contactMeBtn.addEventListener('onClick', redirectToContact());
 
 function redirectToContact(){
     console.log("Contact page");
