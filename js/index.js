@@ -1,20 +1,20 @@
-let aboutMeBtn = document.querySelector('.AboutMe');
-aboutMeBtn.addEventListener('onClick', redirectToAboutMe());
+let aboutMeBtn = document.getElementById('aboutMe');
+aboutMeBtn.addEventListener('click', redirectToAboutMe);
 
 function redirectToAboutMe(){
-    console.log("About me page");
+    window.location.replace('../html/aboutMe.html');
 };
 
-let projectsBtn = document.querySelector('.Projects');
-projectsBtn.addEventListener('onClick', redirectToProject());
+let projectsBtn = document.querySelector('#projects');
+projectsBtn.addEventListener('click', redirectToProject);
 
 function redirectToProject(){
-    console.log("Projects page");
+    window.location.replace('../html/projects.html');
 };
 
-let contactMeBtn = document.querySelector('.ContactMe');
-contactMeBtn.addEventListener('onClick', redirectToContact());
+let contactMeBtn = document.querySelector('#contactMe');
+contactMeBtn.addEventListener('click', redirectToContact);
 
 function redirectToContact(){
-    console.log("Contact page");
+    window.location.replace('../html/contact.html');
 };
