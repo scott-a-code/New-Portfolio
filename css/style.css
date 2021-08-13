@@ -142,6 +142,30 @@ button:hover {
     padding: 3px;
 }
 
+.resizing-window-pictures{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50% !important;
+    padding: 3px;
+    margin: 0 auto;
+    border-color: rgb(51, 45, 45)
+}
+
+.resizing-shark-pictures{
+    display: block;
+    width: 220px;
+    height: 175px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50% !important;
+    padding: 3px;
+    margin: 0 auto;
+    border-color: rgb(51, 45, 45)
+}
+
 /********** Index **********/
 
 #index-image {
