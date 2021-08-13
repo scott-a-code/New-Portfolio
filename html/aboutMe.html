@@ -8,10 +8,12 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"> <!--favicon-->
     <link rel="stylesheet" href="../css/style.css"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <!--bootstrap-->
-    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
     <script defer src="../js/aboutMe.js"></script>
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <nav>
         <div class="container">
             <div class="logo">
@@ -114,17 +116,17 @@
     </section>
     <section>
         <div class="am-container">
-            <div id="hobbies_Carousel" class="carousel slide" data-bs-ride="carousel" data-interval="7000">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#hobbies_Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#hobbies_Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#hobbies_Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div id="hobbies_Carousel" class="carousel slide" data-ride="carousel" data-interval="7000">
+                <div class="carousel-indicators" style="padding-top: 50px;">
+                    <button type="button" data-target="#hobbies_Carousel" data-slide-to="0" class="active smallerBtns" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-target="#hobbies_Carousel" data-slide-to="1" class="smallerBtns" aria-label="Slide 2"></button>
+                    <button type="button" data-target="#hobbies_Carousel" data-slide-to="2" class="smallerBtns" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="rows">
                             <div class="col-md-4">
-                                <img src="./img/cool-gaming-icon-23.jpg" alt="Gaming image" class="resizing-profile-picture"/></a>
+                                <img src="./img/cool-gaming-icon-23.jpg" alt="Gaming image" class="resizing-profile-picture" id="gamepic"/></a>
                             </div>
                             <div class="col-md-8">
                                 <div>
@@ -142,7 +144,7 @@
                             <div class="col-md-8">
                                 <div>
                                     <h1 style="padding-bottom: 20px;">Travelling</h1>
-                                    <p>Like most people my age now, I love to travel. My favourite things to do are to immerse myself in local culture, mainly by trying local cuisine & seeing different sights whether that is going for hikes, enjoying city breaks or relaxing on the beach. Some of the best places i've been are Colombia: for the culture, Sydney for the city & the Dominican Republic for the beaches. My ideal next holidays would be either Japan or Thailand!</p>
+                                    <p>Like most people my age now, I love to travel. My favourite things to do are to immerse myself in local culture, mainly by trying local cuisine & seeing different sights whether that is going for hikes, enjoying city breaks or relaxing on the beach. Some of the best places I've been are Colombia, Sydney & the Dominican Republic. My ideal next holidays would be either Japan or Thailand!</p>
                                 </div>
                             </div>
                         </div>
@@ -161,11 +163,11 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#hobbies_Carousel" data-bs-slide="prev">
+                <button class="carousel-control-prev" style="width:40px;" type="button" data-target="#hobbies_Carousel" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#hobbies_Carousel" data-bs-slide="next">
+                <button class="carousel-control-next" style="width:40px;" type="button" data-target="#hobbies_Carousel" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
                 </button>
