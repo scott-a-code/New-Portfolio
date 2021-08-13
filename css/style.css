@@ -251,8 +251,12 @@ section div p {
     padding-bottom: 20px !important;
 }
 
+.smallerBtns {
+    padding: 4px 22px;
+}
+
 @media only screen and (max-width: 460px) {
-    .imgContainer, .resizing-warwick-picture, .resizing-work-pictures {
+    .imgContainer, .resizing-warwick-picture, .resizing-work-pictures, .resizing-shark-pictures, .resizing-window-pictures, #gamepic {
     display:none;
 }}
 
