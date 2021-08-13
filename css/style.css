@@ -167,6 +167,7 @@ button:hover {
 
 #welcome-text{
     margin-bottom: 50px;
+    margin-right: 0;
 }
 
 @media only screen and (max-width: 500px) {
