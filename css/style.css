@@ -275,7 +275,7 @@ section div p {
     text-align: center;
     margin: 0 auto 25px auto;
     padding: 0 30px;
-    color:azure;
+    color:rgb(42, 49, 49);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 0.95rem;
 }
@@ -399,7 +399,6 @@ a.github-wide {
         text-align: center;
         margin: 0 auto;
         padding: 30px auto;
-        color: black;
         font-size: 0.9rem;
     }
 
